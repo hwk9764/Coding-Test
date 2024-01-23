@@ -8,6 +8,7 @@ queries = ["fro??", "????o", "fr???", "fro???", "pro?"]
 # 문제가 너무 어려워서 포기. 내 코드가 위 input으론 잘 나오고, 책의 방법과도 똑같은데
 # 프로그래머스에 제출하면 맞는 테스트 케이스가 없다.
 # 이 정도 문제는 시험에 나오더라도 포기하기.
+# 그리고 책 답안도 틀렸음
 def solution(words, queries):
     words.sort()
     answer = [0] * len(queries)
